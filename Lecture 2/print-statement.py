@@ -16,4 +16,3 @@ print('Imaad')
 print("They're going to the mall.")
 
 print(1, 2, "hello", True)
-
