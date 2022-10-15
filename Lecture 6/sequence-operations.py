@@ -12,8 +12,10 @@ new_array = array3 * 3
 
 print(new_array)
 
+# in statement 
+
 array4 = ['raspberry', 'strawberry', 'blueberry']
 
-check_array = 'strawberry' in array4
+check_array = 'apple' in array4
 
 print(check_array)

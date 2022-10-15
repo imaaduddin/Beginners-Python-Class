@@ -13,7 +13,7 @@ index = 0
 my_str = "I live in Houston. The weather is great today!"
 
 for c in my_str:
-    # print(f"{index:2d}: {c}")
+    print(f"{index:2d}: {c}")
     index += 1
 
 # iterating through a list (array)
