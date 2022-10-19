@@ -23,10 +23,15 @@
 
 
 # To sort a list we use the sort() method
-numbers = [6, 2, 10, 3, 1, 13, 5, 18]
+# numbers = [6, 2, 10, 3, 1, 13, 5, 18]
 # numbers.sort()
 # print(numbers)
 
 # To sort in descending order we would do this
-numbers.sort(reverse=True)
-print(numbers)
+# numbers.sort(reverse=True)
+# print(numbers)
+
+# list copying we use the copy() method
+list1 = ['pizza', 'burgers', 'pasta']
+new_list = list1.copy()
+print(new_list)
