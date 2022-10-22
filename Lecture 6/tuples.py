@@ -6,7 +6,7 @@ tuple2 = ('Texas', 'Houston')
 
 print(len(tuple1)) # to get the length
 
-print(type(tuple))
+print(type(tuple2))
 
 print(tuple1[1]) #to get the first element, same indexing as lists
 print(tuple1 + tuple2) # to concatenate tuples
