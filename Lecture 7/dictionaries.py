@@ -23,3 +23,21 @@ print(NFL_Teams)
 # Lists vs Dictionaries 
 # with dictionaries objects are retrieved by key name, unordered and can’t be sorted
 # with lists, objects are retrieved by location, ordered sequence can be indexed or sliced
+
+# Another way to write a dictionary 
+word_count = dict (hello = 4, hi = 1, that= 10, this = 70)
+print(word_count)
+
+# Create dictionary using a list of tuples 
+NBA_team = dict([('New York', 'Knicks'), ('Boston', 'Celtics'),
+('Houston', 'Rockets'), ('Los Angeles', 'Lakers'), ('Dallas', 'Mavericks')])
+print(NBA_team)
+
+# Creating a dictionary using two lists 
+# List of strings
+str_lst = ["Hello", "hi", "there", "at", "this"]
+int_lst = [7, 10, 45, 23, 77]
+
+# Merge the 2 lists to create a dictionary
+word_count2 = dict( zip(str_lst, int_lst ))
+print(word_count2)
