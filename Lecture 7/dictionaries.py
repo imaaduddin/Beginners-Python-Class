@@ -39,5 +39,16 @@ str_lst = ["Hello", "hi", "there", "at", "this"]
 int_lst = [7, 10, 45, 23, 77]
 
 # Merge the 2 lists to create a dictionary
-word_count2 = dict( zip(str_lst, int_lst ))
+word_count2 = dict(zip(str_lst, int_lst ))
 print(word_count2)
+
+# Building a dictionary incrementally 
+super_heros = {}
+print(type(super_heros))
+
+super_heros['Spider-Man'] = 'Marvel'
+super_heros['Batman'] = 'DC'
+super_heros['Iron Man'] = 'Marvel'
+super_heros['Superman'] = 'DC'
+
+print(super_heros)
