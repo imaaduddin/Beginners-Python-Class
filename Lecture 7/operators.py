@@ -8,3 +8,4 @@ NFL_Teams = {
 }
 
 print('Miami' in NFL_Teams)
+print('New York' in NFL_Teams)

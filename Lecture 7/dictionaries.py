@@ -10,9 +10,9 @@ value
 # in the following example the key would be the cities and the value is the team names (Giants, Rams, etc,)
 
 NFL_Teams = {
-    'New York': 'Giants',
+    'New York': 'Giants', 
     'Los Angeles': 'Rams',
-    'Houston': 'Texans',
+    'Houston': 'Texans', 
     'Dallas': 'Cowboys',
     'San Francisco': '49ers',
     'Chicago': 'Bears'
@@ -44,7 +44,7 @@ print(word_count2)
 
 # Building a dictionary incrementally 
 super_heros = {}
-print(type(super_heros))
+print(type(super_heros)) # getting the type of super_heros which will be dict
 
 super_heros['Spider-Man'] = 'Marvel'
 super_heros['Batman'] = 'DC'
