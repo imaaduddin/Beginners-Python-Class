@@ -9,12 +9,12 @@ NFL_Teams = {
     'Chicago': 'Bears'
 }
 
-# NFL_Teams.clear()
-# print(NFL_Teams)
+NFL_Teams.clear()
+print(NFL_Teams)
 
 # finding keys and values 
-# print(list(NFL_Teams.keys()))
-# print(list(NFL_Teams.values()))
+print(list(NFL_Teams.keys()))
+print(list(NFL_Teams.values()))
 
 # get method 
 get_method = NFL_Teams.get('New York')
