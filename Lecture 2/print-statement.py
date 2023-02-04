@@ -8,8 +8,6 @@
 # print("/___|")
 
 
-from tkinter.tix import Tree
-
 
 print('Imaad')
 
